@@ -1,0 +1,67 @@
+/* reseteo de valores predeterminado 
+    quitar margenes, padding y bordes*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* quitar decoracion y cambiar color a los enlaces  */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* header */ 
+.header{
+    border: groove 2px gray;   
+    display: flex;
+    margin: 20px;
+   padding: 30px;
+   justify-content: space-around;
+
+}
+
+.logoConten{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+}
+
+/* quitamos el estilo de la lista */
+.menu{
+    list-style: none;
+    display: flex ;
+    gap: 40px;
+
+}
+
+
+
+
+
+
+.list_nav{
+     
+}
+
+
+
+
+/* footer */
+footer{
+    background-color: black; 
+    margin: 0px 0px 0px 0px;
+}
