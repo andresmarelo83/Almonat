@@ -122,7 +122,7 @@ footer{
   
 }
 .social{
-    
+    display: inline-block;
 }
 .social img{
     width: 80px;
