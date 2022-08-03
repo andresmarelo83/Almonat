@@ -1,3 +1,6 @@
+/* instalacion de fuentes o fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=Fredericka+the+Great&family=Libre+Barcode+39+Text&family=Orbitron:wght@500&family=Staatliches&display=swap');
+
 /* reseteo de valores predeterminado 
     quitar margenes, padding y bordes*/
 *{
@@ -23,35 +26,45 @@ a{
 .header{
     /* border: groove 2px gray;    */
     display: flex;
-    margin: 10px;
-   padding: 20px;
-   justify-content: space-around;
+    margin: 5px;
+   /* padding: 5px; */
+   justify-content:space-around;
    align-items: center;
 
 }
-
+/* contenedor del logo */
 .logoConten{
     width: 200px;
     height: 200px;
     display: inline-block;
 }
-
+/* logo */
 .logo{
     width: 200px;
     height: 200px;
 }
+/* titulo de la pagina */
 .title {
 text-align: center;
 }
+/* titulo principal */
 .title h1{
     font-size: 80px;
+    font-family: Fredericka the Great; 
 }
+/* slogan */
+.title p{
+    font-family:staatliches;
+}
+/* etiqyeta span para dar apariencia de bandera */
 .yellow{color:#FFCD00;} .blue{color:rgb(0,48,135) ;} .red{color:red ;}
-/* quitamos el estilo de la lista */
+
+/* Menu de navegacion */
 .menu{
-    list-style: none;
+    list-style: none; /* quitamos el estilo de la lista */
     display: flex ;
     gap: 40px;
+    font-family:orbitron;
 
 }
 
