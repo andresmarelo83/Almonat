@@ -21,11 +21,12 @@ a{
 
 /* header */ 
 .header{
-    border: groove 2px gray;   
+    /* border: groove 2px gray;    */
     display: flex;
-    margin: 20px;
-   padding: 30px;
+    margin: 10px;
+   padding: 20px;
    justify-content: space-around;
+   align-items: center;
 
 }
 
@@ -39,7 +40,13 @@ a{
     width: 200px;
     height: 200px;
 }
-
+.title {
+text-align: center;
+}
+.title h1{
+    font-size: 80px;
+}
+.yellow{color:#FFCD00;} .blue{color:rgb(0,48,135) ;} .red{color:red ;}
 /* quitamos el estilo de la lista */
 .menu{
     list-style: none;
@@ -48,9 +55,21 @@ a{
 
 }
 
-
-
-
+/* seccion banner */
+/* agregando fondo y tamaño */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/mushrooms-3069822_640.jpg);
+    background-size:cover;
+}
+/* texto del banner */
+.title__banner{
+    font-size: 100px;
+    color: aliceblue;
+    text-align: center;
+    padding: 200px;
+}
 
 
 .list_nav{
@@ -64,4 +83,5 @@ a{
 footer{
     background-color: black; 
     margin: 0px 0px 0px 0px;
+
 }
