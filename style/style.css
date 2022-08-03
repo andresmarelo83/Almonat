@@ -59,16 +59,19 @@ text-align: center;
 /* agregando fondo y tamaño */
 .banner{
     width: 100%;
-    height: 500px;
-    background-image: url(/images/mushrooms-3069822_640.jpg);
+    height: 800px;
+    margin: 0px 10px 0px 10px;
+    background-image: url("/images/imagenes/spices-4185324_640.jpg");
+    background-repeat: no-repeat;
     background-size:cover;
+    
 }
 /* texto del banner */
 .title__banner{
     font-size: 100px;
     color: aliceblue;
     text-align: center;
-    padding: 200px;
+    padding: 250px;
 }
 
 
@@ -80,8 +83,15 @@ text-align: center;
 
 
 /* footer */
+/* redes sociales (logos y enlaces) */
 footer{
-    background-color: black; 
-    margin: 0px 0px 0px 0px;
-
+  
+}
+.social{
+    
+}
+.social img{
+    width: 80px;
+    height: 80px;
+   
 }
