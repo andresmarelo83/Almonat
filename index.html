@@ -1,45 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-    <!-- metadatos   -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Vitaminas, complementos, nutrición, alimentos naturales, frutos secos.">
-    <meta name="description" content="ALMONAT es una tienda virtual dedicada a la comercialización de productos vitamínicos y alimentos de origen natural">
-    <meta name="author" content="andresmarelo">
-    <!-- icono pestaña -->
-    <link rel="icon" href="/images/logos/salad.ico" >
+<html lang="es"><!--indica el idioma en que esta escrita la pagina-->
+
+<!-- head o cabeza del documento es donde se carga toda la informacion y datos para que la pagina funcione mejor
+    y los navegadores y buscadores obtengan informacion de nuestra pagina->
+<!-- ______________________________________________________________________________________________________ -->
+
+<head>
+        <!-- metadatos, sirven para posicionar o indexar mejor las paginas y es solo usado por el navegador-->
+    <!-- ______________________________________________________________________________________________________ -->
+    <meta charset="UTF-8"> <!-- se utiliza para que el navegador carge visualmente los caracteres especiales-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- se utiliza para quela pagina sea compatible con todos los navegadores-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Permite que la pagina sea visualizada en dispocitivos de cualquier tamaño-->
+    <meta name="keywords" content="Vitaminas, complementos, nutrición, alimentos naturales, frutos secos."><!--palabras claves que permiten al buscador encontrar la pagina por tipos de palabras-->
+    <meta name="description" content="ALMONAT es una tienda virtual dedicada a la comercialización de productos vitamínicos y alimentos de origen natural"><!-- describe la informacion de la pagina y solo aparece en los buscadores-->
+    <meta name="author" content="andresmarelo"><!--describe quien realizo la pagina-->
+
+
+        <!-- los link permiten traer archivos exteriores al documento para que funcione mejor o  muestre otros contenidos -->
+    <!-- ______________________________________________________________________________________________________ --> 
+    <link rel="icon" href="/images/logos/favicon.ico" ><!-- icono pestaña del navegador-->
     <!-- link de fuentes de google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Fredericka+the+Great&family=Libre+Barcode+39+Text&family=Orbitron:wght@500&family=Staatliches&display=swap" rel="stylesheet">
     <!-- link css -->
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Almonat</title>
+    <link rel="stylesheet" href="./style/style.css"><!-- enlaza a nuestros documentos los estilos css desde un archivo externo-->
+    <title>Almonat</title><!--muestra el nombre del documento donde nos encontramos en la pestaña del navegador-->
 </head>
+
+<!-- el cuerpo o body es la parte visible que se vera en el navegador y donde se ingresa todas las etiquetas y textos que queremos ser mostrados al cliente-->
+    <!-- ______________________________________________________________________________________________________ -->
 <body>
-    <!-- encabezado o header -->
+
+    <!-- encabezado o header es la cabezera de nuestro sitio y es donde normalmente va el logo de la pagina o nombre y el menu de navegacion -->
     <header class="header">
         
-            <!-- logo almonat -->
-            <div class="logoConten">
-                <a href="index.html">
-                    <img class="logo" src="./images/logos/almonatsinfondo.png" alt="almonat">
+<!-- _______________________________LOGO_______________________________________________ -->
+            <div class="logoConten"><!-- contenedor del logo de la empresa -->
+                <a href="index.html"><!-- link para regresar al home -->
+                    <img class="logo" src="./images/logos/almonatsinfondo.png" alt="almonat"><!--etiqueta para cargar el logo o imagen-->
                 </a>
-            </div>
-                
-                
-            <!-- titulo pagina -->
-        <div class="title">   
+            </div>              
+<!-- _________________________________TITULO_______________________________________________________ -->                           
+        <div class="title"> <!-- titulo pagina -->  
             <a href="index.html"><h1> <span class="yellow">ALM</span><span class="blue">ON</span><span class="red">AT</span></h1>
                 <p>Alimento Natural</p>
             </a>
         </div>
+ <!-- __________________________MENÚ DE NAVEGACION________________________________________________ -->        
         <!-- menu navegacion -->
         <nav class="navbar">
             <!-- enlaces de navegacion -->
             <ul class="menu">
                 <!-- items menu navegacion -->
+                <!-- link para acceder a otros documentos o paginas del sitio -->
                 <li><a class="menu_Item" href="/nosotros.html">Nosotros</a></li>
                 <li><a class="menu_Item" href="/productos.html">Productos</a></li>
                 <li><a class="menu_Item" href="/recetas.html">Recetas</a></li>
@@ -47,11 +61,15 @@
             </ul>
         </nav>
     </header>
-    <!-- seccion del banner (productos y promociones) -->
+
+<!-- __________________________BANNER________________________________________________ -->     
+    <!-- seccion del banner principal (productos y promociones) -->
     <section class="banner">
-        <h2 class="title__banner">Novedades</h2>
+        <h2 class="title__banner">COME SANO</h2>
+        <img src="./images/imagenes/" alt="COmida sana">
     </section> 
-    <!-- seccion productos -->
+    <!-- __________________________SECCION PRODUCTOS________________________________________________ --> 
+    
     <section class="products">
         <div class="titleProducts">
             <h2>Productos</h2>
@@ -66,26 +84,32 @@
             <div class="item__carrousel"><img src="/images/imagenes/green-682620_640.jpg" alt=""></div>
     </div>
     </section>
-    <!-- seccion de comentarios de clientes -->
+
+
+
+    <!-- __________________________SECCION COMENTARIOS________________________________________________ -->     
     <section class="comment">
 
     </section>
-    <!-- seccion de video de youtube -->
+
+
+    <!-- __________________________CANAL DE YOUTUBE________________________________________________ -->     
     <section class="video">
-        <iframe src="" frameborder="0"></iframe>
+        <iframe src="" frameborder="0"></iframe><!-- Permite traer un video de youtube -->
 
     </section>
 
-
+    <!-- __________________________LOGO FLOTANDE DE WHATSAPP________________________________________________ --> 
+    <div class="whatsapp">
+        <img class="logoWhatsapp" src="./images/social/instagram-symbol_icon-icons.com_73522.svg" alt="whatsapp">
+    </div>
  
 
 
 
-
-
-    <!-- Footer -->
+  <!-- __________________________PIE DE PAGINA________________________________________________ -->    
     <footer>
-        <div class="social">
+        <div class="social"><!-- contenedor de logos y enlaces hacia redes sociales -->
             <div class="facebook">
                 <a href="https://www.facebook.com/"><img src="/images/social/facebbok2.svg" alt="facebook"></a>
             </div>
