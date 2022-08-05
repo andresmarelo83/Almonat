@@ -36,11 +36,11 @@
     <header class="header">
         
 <!-- _______________________________LOGO_______________________________________________ -->
-            <div class="logoConten"><!-- contenedor del logo de la empresa -->
+            <!-- <div class="logoContent">contenedor del logo de la empresa -->
                 <a href="index.html"><!-- link para regresar al home -->
                     <img class="logo" src="./images/logos/almonatsinfondo.png" alt="almonat"><!--etiqueta para cargar el logo o imagen-->
                 </a>
-            </div>              
+            <!-- </div>               -->
 <!-- _________________________________TITULO_______________________________________________________ -->                           
         <div class="title"> <!-- titulo pagina -->  
             <a href="index.html"><h1> <span class="yellow">ALM</span><span class="blue">ON</span><span class="red">AT</span></h1>
@@ -65,8 +65,8 @@
 <!-- __________________________BANNER________________________________________________ -->     
     <!-- seccion del banner principal (productos y promociones) -->
     <section class="banner">
-        <h2 class="title__banner">COME SANO</h2>
-        <img src="./images/imagenes/" alt="COmida sana">
+        <img class="imgbanner" src="./images/imagenes/vegetales2.jpg" alt="Comida sana">
+        <h2 class="title__banner">COME SANO <br> Vive Sano</h2>
     </section> 
     <!-- __________________________SECCION PRODUCTOS________________________________________________ --> 
     
@@ -75,20 +75,63 @@
             <h2>Productos</h2>
         </div>
         <div class="carrousel">
-            <div class="item__carrousel"><img src="/images/imagenes/vegetables-2338824_640.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="/images/imagenes/vegetables-1085063_640.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="/images/imagenes/mushrooms-3069822_640.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="/images/imagenes/bowl-of-fruit-1205155_640.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="/images/imagenes/cereal-3154035_640.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="/images/imagenes/green-422995_640.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="/images/imagenes/green-682620_640.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/vinaminaD.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/vitaminaB.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/vitaminaBC.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/vitaminaC.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/vitaminaE.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/vinagreDmanzana.jpg" alt=""></div>
+            <div class="item__carrousel"><img src="./images/Productos/frutoseco4.jpg" alt=""></div>
     </div>
     </section>
 
 
 
-    <!-- __________________________SECCION COMENTARIOS________________________________________________ -->     
-    <section class="comment">
+    <!-- __________________________SECCION COMENTARIOS________________________________________________ --> 
+    <!-- simularemos comentarios de clientes -->    
+    <section class="containerComment">
+        <div class="Commnet">
+            <div class="comment1">
+                <div class="profile">
+                    <img src="./images/logos/profile.png" alt="profile">
+                </div>
+                <div class="commnetProfile">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
+                     reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
+                     Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
+                    </p>
+                </div>
+            </div>
+            <div class="comment2">
+                <div class="profile">
+                    <img src="./images/logos/profile.png" alt="profile">
+                </div>
+                <div class="commnetProfile">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
+                     reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
+                     Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
+                    </p>
+                </div>
+            </div>
+            <div class="comment3">
+                <div class="profile">
+                    <img src="./images/logos/profile.png" alt="profile">
+                </div>
+                <div class="commnetProfile">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
+                     reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
+                     Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
+                    </p>
+                </div>
+            </div>            
+        </div>
+        <form action=""><!-- formulario para comentarios -->
+            <label for=""></label>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="E-mail">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
 
     </section>
 
@@ -96,12 +139,11 @@
     <!-- __________________________CANAL DE YOUTUBE________________________________________________ -->     
     <section class="video">
         <iframe src="" frameborder="0"></iframe><!-- Permite traer un video de youtube -->
-
     </section>
 
     <!-- __________________________LOGO FLOTANDE DE WHATSAPP________________________________________________ --> 
-    <div class="whatsapp">
-        <img class="logoWhatsapp" src="./images/social/instagram-symbol_icon-icons.com_73522.svg" alt="whatsapp">
+    <div class="whatsappFixxer"><!-- logo de whatsapp fijo en la pagina -->
+        <a href=""><img class="logoWhatsapp" src="./images/social/whatsappPainball.png" alt="whatsapp"></a>   
     </div>
  
 
