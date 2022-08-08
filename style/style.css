@@ -257,7 +257,7 @@ flex-grow: 3;
 }
     /* ____________________________________________________PRODUCTOS_____________________________________________________________________ */
     
-    .productos{
+    /* .productos{
     display: flex;
     width: 100%;
     margin: 50px 5%;
@@ -287,6 +287,61 @@ flex-grow: 3;
     display: flex;
     width: 100px;
     height: 100px;
+} */
+.productos{
+    display: flex;
+
+} 
+.menuProductos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 50px;
+} 
+.menuProductos ul{
+    list-style: none;
+    list-style-position: inside;
+    font-family: fantasy;
+    font-size: 25px;
+    
+}
+.products{
+    display: flex;
+    display: inline-block;
+}
+.cards{
+    width: 300px;
+    background-color: rgb(121, 197, 197);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+.imagenCards{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cards h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+}
+.cards p{
+    font-size: 20px;
+    font-family:;
+    margin-bottom: 10px;
+}
+.cards button{ 
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+
 }
 
 /* ____________________________________________________CONTACTO_____________________________________________________________________ */
@@ -331,14 +386,58 @@ flex-grow: 3;
 }
 
 /* ____________________________________________________RECETAS_____________________________________________________________________ */
-.recetas{
+ .recetas{
     display: flex;
 
-}
+} 
 .asideRecetas{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 200px;
     margin: 50px;
+} 
+.asideRecetas ul{
+    list-style: none;
+    list-style-position: inside;
+    font-family: fantasy;
+    font-size: 25px;
+    
+}
+.products{
+    display: flex;
+    display: inline-block;
+}
+.cards{
+    width: 300px;
+    background-color: rgb(121, 197, 197);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    display: inline-block;
+
+}
+.imagenCards{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.cards h3{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+}
+.cards p{
+    font-size: 20px;
+    font-family:;
+    margin-bottom: 10px;
+}
+.cards button{ 
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+
 }
