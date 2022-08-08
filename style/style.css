@@ -7,54 +7,42 @@
 /* _________________________________________________________________________________________________________________________________________________________________________________ */
 
 /* reseteo de valores predeterminado para quitar margenes, padding y bordes*/
-*{margin: 0;padding: 0;box-sizing: border-box;}
+*{margin:0; padding:0;box-sizing: border-box;}
 /* _________________________________________________________________________________________________________________________________________________________________________________ */
 
 /* quita decoracion y cambiar color a los enlaces  */
 a{text-decoration: none;color: black;}
 /* _________________________________________________________________________________________________________________________________________________________________________________ */
 
-/* fondo para todas las landing */
-body{background-color: rgba(190, 176, 176, 0.075);background-color: greenyellow;}
-.sinnada{
-    background-color: white;
-}
-/* _________________________________________________________________________________________________________________________________________________________________________________ */
-
-
-
 /* ________________________________________________________HEADER__________________________________________________________________ */
 .header{
-    /* border: groove 2px gray; */  
-    
-    height: 150px;
-    border-radius: 25px;   
+    /* border: groove 2px gray; */    
+    /* height: 150px; */
     display: flex;
-    margin: 15px 2%;   
+    flex-wrap: wrap;
     justify-content:space-between;
+    border-radius: 25px;   
+    margin: 15px 2%;   
     align-items: center;
     background-color: white;
 
 }
-
-
 .logo{
     width: 150px;
     height: 150px;
     margin: 5px 5px;
     padding: 10px 10px;
+    flex-grow: 1 ;
     
 }
-
 .title {
 text-align: center;
+flex-grow: 3;
 }
-
 .title h1{
     font-size: 80px;
     font-family: Fredericka the Great; 
 }
-
 .title p{
     font-family:staatliches;
 }
@@ -77,28 +65,19 @@ text-align: center;
 }
 /* ______________________________FOOTER___________________________________________________________________________________________ */
 
-.float{
-    width: 300px;
-    height: 300px;
-    position: fixed;
-    align-items: flex-end;
-}
-
-
-
-
 
 /* redes sociales (logos y enlaces) */
 .social{
+    display: flex;
     background-color: white;
+    justify-content: center;
+    gap: 20px;
     /* border: solid 2px  black; */
     width: 100%;
     height: 80px;
-    margin: 15px 2%;
+    margin: 15px 5%;
     border-radius: 25px; 
-    display: inline-flex;  
-    justify-content: center;
-    gap: 20px;
+      
 }
 
 .social img{
@@ -108,46 +87,47 @@ text-align: center;
       
 }
 
-/* _________________________________________________________________________________________________________________________________________________________________________________ */
+/* ___________________________________________INDEX_________________________________________________________________________________________________________________________ */
+
+
+
 /* seccion banner */
 /* agregando fondo y tamaño */
 .banner{
-    width: 100%;
-    height: 500px;
-    margin: 0px 10px ;
-    /* border: solid 2px black; */
-    border-radius: 25px;
-    /* background-image: url("/images/imagenes/spices-4185324_640.jpg");
+    background-image: url(../images/imagenes/frutasycereal.jpg);
     background-repeat: no-repeat;
-    background-size:cover; */
-    
+    background-attachment: fixed;
+    background-size: cover;
+    /* height: 50em; */
+    margin-top: 0;
+
+ 
 }
-.imgbanner{
-    width: 100%;
-    height: 500px;
-    border-radius: 25px;    
-    /* display: block; */
-}
+
 /* texto del banner */
 .title__banner{
-    font-size: 100px;
-    color: aliceblue;
+    font-size: 50px;
+    font-style: oblique;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 250px;
+    
 }
 /* _________________________________________________________________________________________________________________________________________________________________________________ */
 /* seccion productos */
 .products{
     width: 100%;
-    height: 500px;
-    border: solid 2px black;
-    margin: 10px 10px 0px 10px;
+    height: auto;
+    
+    margin: 0;
     
 }
 /* _________________________________________________________________________________________________________________________________________________________________________________ */
 .carrousel{
-    padding: 50$;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+   
 }
 /* titulo de productos */
 .titleProducts{
@@ -162,13 +142,68 @@ text-align: center;
     /* border: groove 2px gray; */
     display: inline-block;
     margin: 50px;
+   
     
 }
 /* imagenes del carrousel */
 .item__carrousel img{
     width: 100px;
     height: 100px;
+    
 }
 
+/* _________________________________________________________________________________________________________________________________________________________________________________ */
 
 
+
+}
+/* ____________________________________________________COMENTARIOS Y VIDEO_____________________________________________________________________ */
+
+
+
+/* ____________________________________________________COMENTARIOS _____________________________________________________________________ */
+.comentarioYvideo{    
+    width: 100%;
+    display: flex;
+    display: inline-block;
+}
+.contenedorcomentario{
+    width: 50%;    
+    display:inline-block ;
+    
+}
+.contenedorcomentario h2{
+    text-align: center;
+    font-family: fantasy;
+}
+.comentario{
+    display: flex;
+    width: auto;
+}
+.comentario img{
+    width: 100px;
+    
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    /* ____________________________________________________VIDEO_____________________________________________________________________ */
+    
+    .video{
+        border: #FFCD00 1px solid;
+        width: 50%;
+        /* height: 300px; */
+        display: inline-block;
+    display: flex;    
+}
+.video h2{
+    text-align: center;
+    font-family: fantasy;
+}
+/* ____________________________________________________NOSOTROS_____________________________________________________________________ */

@@ -31,123 +31,156 @@
 <!-- el cuerpo o body es la parte visible que se vera en el navegador y donde se ingresa todas las etiquetas y textos que queremos ser mostrados al cliente-->
     <!-- ______________________________________________________________________________________________________ -->
 <body>
-
-    <!-- encabezado o header es la cabezera de nuestro sitio y es donde normalmente va el logo de la pagina o nombre y el menu de navegacion -->
-    <header class="header">
-        
-<!-- _______________________________LOGO_______________________________________________ -->
+    <div class="banner">
+        <!-- encabezado o header es la cabezera de nuestro sitio y es donde normalmente va el logo de la pagina o nombre y el menu de navegacion -->
+        <header class="header">
             
-                <a href="index.html"><!-- link para regresar al home -->
-                    <img class="logo" src="./images/logos/almonatsinfondo.png" alt="almonat"><!--etiqueta para cargar el logo o imagen-->
+    <!-- _______________________________LOGO_______________________________________________ -->
+                
+                    <a href="index.html"><!-- link para regresar al home -->
+                        <img class="logo" src="./images/logos/almonatsinfondo.png" alt="almonat"><!--etiqueta para cargar el logo o imagen-->
+                    </a>
+                            
+    <!-- _________________________________TITULO_______________________________________________________ -->                           
+            <div class="title"> <!-- titulo pagina -->  
+                <a href="index.html"><h1> <span class="yellow">ALM</span><span class="blue">ON</span><span class="red">AT</span></h1>
+                    <p>Alimento Natural</p>
                 </a>
-                           
-<!-- _________________________________TITULO_______________________________________________________ -->                           
-        <div class="title"> <!-- titulo pagina -->  
-            <a href="index.html"><h1> <span class="yellow">ALM</span><span class="blue">ON</span><span class="red">AT</span></h1>
-                <p>Alimento Natural</p>
-            </a>
-        </div>
- <!-- __________________________MENÚ DE NAVEGACION________________________________________________ -->        
-        <!-- menu navegacion -->
-        <nav class="navbar">
-            <!-- enlaces de navegacion -->
-            <ul class="menu">
-                <!-- items menu navegacion -->
-                <!-- link para acceder a otros documentos o paginas del sitio -->
-                <li><a class="menu_Item" href="/nosotros.html">Nosotros</a></li>
-                <li><a class="menu_Item" href="/productos.html">Productos</a></li>
-                <li><a class="menu_Item" href="/recetas.html">Recetas</a></li>
-                <li><a class="menu_Item" href="/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+            </div>
+    <!-- __________________________MENÚ DE NAVEGACION________________________________________________ -->        
+            <!-- menu navegacion -->
+            <nav class="navbar">
+                <!-- enlaces de navegacion -->
+                <ul class="menu">
+                    <!-- items menu navegacion -->
+                    <!-- link para acceder a otros documentos o paginas del sitio -->
+                    <li><a class="menu_Item" href="/nosotros.html">Nosotros</a></li>
+                    <li><a class="menu_Item" href="/productos.html">Productos</a></li>
+                    <li><a class="menu_Item" href="/recetas.html">Recetas</a></li>
+                    <li><a class="menu_Item" href="/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
 
-<!-- __________________________BANNER________________________________________________ -->     
-    <!-- seccion del banner principal (productos y promociones) -->
-    <section class="banner">
-        <img class="imgbanner" src="./images/imagenes/vegetales2.jpg" alt="Comida sana">
-        <h2 class="title__banner">COME SANO <br> Vive Sano</h2>
-    </section> 
-    <!-- __________________________SECCION PRODUCTOS________________________________________________ --> 
-    
-    <section class="products">
-        <div class="titleProducts">
-            <h2>Productos</h2>
+    <!-- __________________________BANNER________________________________________________ -->     
+        <!-- seccion del banner principal (productos y promociones) -->
+        <section class="title__banner">
+            <h2>COME SANO <br> Vive Sano</h2>
+           
+        </section> 
+    </div>    
+        <!-- __________________________SECCION PRODUCTOS________________________________________________ --> 
+        
+        <section class="products">
+            <div class="titleProducts">
+                <h2>Productos</h2>
+            </div>
+            <div class="carrousel">
+                <div class="item__carrousel"><img src="./images/Productos/vinaminaD.jpg" alt=""></div>
+                <div class="item__carrousel"><img src="./images/Productos/vitaminaB.jpg" alt=""></div>
+                <div class="item__carrousel"><img src="./images/Productos/vitaminaBC.jpg" alt=""></div>
+                <div class="item__carrousel"><img src="./images/Productos/vitaminaC.jpg" alt=""></div>
+                <div class="item__carrousel"><img src="./images/Productos/vitaminaE.jpg" alt=""></div>
+                <div class="item__carrousel"><img src="./images/Productos/vinagreDmanzana.jpg" alt=""></div>
+                <div class="item__carrousel"><img src="./images/Productos/frutoseco4.jpg" alt=""></div>
         </div>
-        <div class="carrousel">
-            <div class="item__carrousel"><img src="./images/Productos/vinaminaD.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="./images/Productos/vitaminaB.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="./images/Productos/vitaminaBC.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="./images/Productos/vitaminaC.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="./images/Productos/vitaminaE.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="./images/Productos/vinagreDmanzana.jpg" alt=""></div>
-            <div class="item__carrousel"><img src="./images/Productos/frutoseco4.jpg" alt=""></div>
-    </div>
-    </section>
+        </section>
+    
 
 
 
     <!-- __________________________SECCION COMENTARIOS________________________________________________ --> 
-    <!-- simularemos comentarios de clientes -->    
-    <section class="containerComment">
-        <div class="Commnet">
-            <div class="comment1">
-                <div class="profile">
-                    <img src="./images/logos/profile.png" alt="profile">
+        <section class="comentarioYvideo">
+            <div class="contenedorcomentario">
+                <H2>COMENTARIOS DE CLIENTES</H2>
+                <div class="comentario">
+                    <img src="./images/logos/profile.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa rerum a dolor? Consequatur, praesentium vero cum iure distinctio tenetur ducimus similique repellendus quod! Quia provident ipsam voluptatem. Nesciunt, fugit quis.</p>
                 </div>
-                <div class="commnetProfile">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
-                     reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
-                     Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
-                    </p>
+                <div class="comentario">
+                    <img src="./images/logos/profile.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit distinctio enim veniam totam quod officiis voluptatibus, accusantium eveniet vitae temporibus a quam vero laudantium delectus. Delectus consequatur doloremque exercitationem laborum!.</p>
                 </div>
+                <div class="comentario">
+                    <img src="./images/logos/profile.png" alt="">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="formulario">
+                    <form action=""><!-- formulario para comentarios -->
+                        <input type="text" placeholder="Nombre">
+                        <input type="email" placeholder="E-mail">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                
+
             </div>
-            <div class="comment2">
-                <div class="profile">
-                    <img src="./images/logos/profile.png" alt="profile">
-                </div>
-                <div class="commnetProfile">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
-                     reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
-                     Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
-                    </p>
-                </div>
+            <div class="video">
+                <H2>CANAL DE YOUTUBE</H2>
+                <iframe width="100%" height="auto" src="https://www.youtube.com/embed/MM62wjLrgmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="comment3">
-                <div class="profile">
-                    <img src="./images/logos/profile.png" alt="profile">
+        </section>
+
+
+    <!-- simularemos comentarios de clientes -->  
+    <!-- <div class="medio"> 
+        <section class="containerComment">
+            <div class="Commnet">
+                <div class="comment1">
+                    <div class="profile">
+                        <img src="./images/logos/profile.png" alt="profile">
+                    </div>
+                    <div class="commentProfile">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
+                        reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
+                        Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
+                        </p>
+                    </div>
                 </div>
-                <div class="commnetProfile">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
-                     reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
-                     Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
-                    </p>
+                <div class="comment2">
+                    <div class="profile">
+                        <img src="./images/logos/profile.png" alt="profile">
+                    </div>
+                    <div class="commentProfile">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
+                        reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
+                        Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
+                        </p>
+                    </div>
                 </div>
-            </div>            
-        </div>
-        <form action=""><!-- formulario para comentarios -->
-            <label for=""></label>
-            <input type="text" placeholder="Nombre">
-            <input type="email" placeholder="E-mail">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+                <div class="comment3">
+                    <div class="profile">
+                        <img src="./images/logos/profile.png" alt="profile">
+                    </div>
+                    <div class="commentProfile">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse illum aliquam, 
+                        reiciendis numquam ipsa autem quas error ad obcaecati odio eum laudantium!
+                        Exercitationem sunt officia cupiditate praesentium corporis explicabo delectus?
+                        </p>
+                    </div>
+                </div>            
+            </div>
+            <div  class="formularioDeComentarios">
+                <form action=""><!-- formulario para comentarios -->
+                    <!-- <label for=""></label>
+                    <input type="text" placeholder="Nombre">
+                    <input type="email" placeholder="E-mail">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    <!-- </div>  -->
 
-    </section>
-
-
-    <!-- __________________________CANAL DE YOUTUBE________________________________________________ -->     
-    <section class="video">
-        <iframe src="" frameborder="0"></iframe><!-- Permite traer un video de youtube -->
-    </section>
+        <!-- __________________________CANAL DE YOUTUBE________________________________________________ -->     
+        <!-- <section class="video">
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/EVBlLkfh2V0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>Permite traer un video de youtube -->
+        <!-- </section> -->
 
     <!-- __________________________LOGO FLOTANDE DE WHATSAPP________________________________________________ --> 
     <!-- logo de whatsapp fijo en la pagina -->
-    <div class="float">
-        <a  href="https://api.whatsapp.com/send?phone=3015490873" target="_blank"><img  src="./images/social/whatsappPainball.png" alt="whatsapp"></a>   
-    </div>
- 
-
+   
 
 
   <!-- __________________________PIE DE PAGINA________________________________________________ -->    
