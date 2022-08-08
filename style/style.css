@@ -199,11 +199,54 @@ flex-grow: 3;
         border: #FFCD00 1px solid;
         width: 50%;
         /* height: 300px; */
+        display: flex;    
         display: inline-block;
-    display: flex;    
 }
 .video h2{
     text-align: center;
     font-family: fantasy;
 }
 /* ____________________________________________________NOSOTROS_____________________________________________________________________ */
+
+.nosotros{
+    width: 100%;
+    
+    margin-top: 100px;
+}
+.quienesSomos{
+    width: 100%;
+    display: flex;
+    display: inline-block;
+}
+.nosotros h2{
+    text-align: center;
+    font-family: fantasy;
+}
+
+.uno{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 50px;
+}
+
+}
+
+.uno p{
+    width: 50%;
+    padding: 100px;
+    text-align: center;
+
+}
+.uno img{
+    width: 50%;
+
+}
+.mision{
+    width: 100%;
+
+}
+.vision{
+    width: 100%;
+
+}
