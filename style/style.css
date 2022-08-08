@@ -166,17 +166,18 @@ flex-grow: 3;
 .comentarioYvideo{    
     width: 100%;
     display: flex;
-    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;    
 }
 .contenedorcomentario{
-    width: 50%;    
-    display:inline-block ;
-    margin: 50px;
-    
+    display:inline-block;
+    width: 50%;
+    margin: 30px 0;    
 }
 .contenedorcomentario h2{
     text-align: center;
     font-family: fantasy;
+    margin: 20px;
 }
 .comentario{
     display: flex;
@@ -197,13 +198,12 @@ flex-grow: 3;
 }
     /* ____________________________________________________VIDEO_____________________________________________________________________ */
     
-    .video{
-        border: #FFCD00 1px solid;
-        width: 50%;
-        /* height: 300px; */
-        display: flex;    
-        display: inline-block;
-        margin: 50px;
+.video{
+    display: flex;    
+    display: inline-block;
+    margin: 50px 0;
+    width: 50%;
+    
 }
 .video h2{
     text-align: center;
