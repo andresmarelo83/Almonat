@@ -118,6 +118,9 @@ flex-grow: 3;
 .products{
     width: 100%;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     margin: 0;
     
@@ -130,10 +133,13 @@ flex-grow: 3;
    
 }
 /* titulo de productos */
-.titleProducts{
+.products h2{
     font-family:Orbitron;
     font-size: 20px;
-    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+    
+   
 }
 /* carrusel de imagenes de productos */
 .item__carrousel{
