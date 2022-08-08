@@ -297,9 +297,9 @@ flex-grow: 3;
  margin: 50px auto;
  flex-direction: column;
  align-items: center;
- border: #FFCD00 1px solid;
+
 }
-.contact h2{
+.sectionContact h2{
     text-align: center;
     font-family: fantasy;
 }
@@ -310,15 +310,22 @@ flex-grow: 3;
 }
 
 .otherContacts{
-    border: #FFCD00 1px solid;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 50px auto 100px;
     
 }
+
 .otherContacts img{
-    width: 80px;
+    width:100px;
+}
+.otherContacts p{
+    text-align: center;
+    font-family: fantasy;
 }
 .item 1{
     width: 400px;
 }
+
