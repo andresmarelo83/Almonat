@@ -170,6 +170,7 @@ flex-grow: 3;
 .contenedorcomentario{
     width: 50%;    
     display:inline-block ;
+    margin: 50px;
     
 }
 .contenedorcomentario h2{
@@ -201,6 +202,7 @@ flex-grow: 3;
         /* height: 300px; */
         display: flex;    
         display: inline-block;
+        margin: 50px;
 }
 .video h2{
     text-align: center;
@@ -253,8 +255,8 @@ flex-grow: 3;
     
 }
     /* ____________________________________________________NOSOTROS_____________________________________________________________________ */
-
-.productos{
+    
+    .productos{
     display: flex;
     width: 100%;
     margin: 50px 5%;
@@ -284,4 +286,39 @@ flex-grow: 3;
     display: flex;
     width: 100px;
     height: 100px;
+}
+
+/* ____________________________________________________CONTACTO_____________________________________________________________________ */
+
+.contact{
+ display: flex;
+ width: 100%;
+ border: 50px;
+ margin: 50px auto;
+ flex-direction: column;
+ align-items: center;
+ border: #FFCD00 1px solid;
+}
+.contact h2{
+    text-align: center;
+    font-family: fantasy;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.otherContacts{
+    border: #FFCD00 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.otherContacts img{
+    width: 80px;
+}
+.item 1{
+    width: 400px;
 }
