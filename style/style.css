@@ -229,6 +229,9 @@ flex-grow: 3;
     margin: 50px;
     padding: 50px;
 }
+.dos{
+    flex-direction: row-reverse;
+}
 
 
 .uno p{
@@ -251,3 +254,34 @@ flex-grow: 3;
 }
     /* ____________________________________________________NOSOTROS_____________________________________________________________________ */
 
+.productos{
+    display: flex;
+    width: 100%;
+    margin: 50px 5%;
+
+}
+.menuProductos{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.products{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menuProductos ul{
+    list-style: none;
+    display: flex;    
+    flex-flow: column nowrap;
+    align-items: center;   
+    
+}
+.cards{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
